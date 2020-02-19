@@ -41,7 +41,8 @@ fileNames = get_txt_filenames(visits = 1,
                               file_types =  "volumes_corrected")
 ```
 
-## Read in the data
+## Read in the data 
+### Level and Type are no longer supported
 ```{r}
 #read them in
 dat = readFileList(fileNames$filename, 
